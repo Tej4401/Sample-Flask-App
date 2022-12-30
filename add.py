@@ -1,6 +1,6 @@
 import logging
 
-logging.basicConfig(filename='client_data.log', level=logging.DEBUG)
+logging.basicConfig(filename='output.log', level=logging.DEBUG)
 
 def add(a, b):
     return a + b
